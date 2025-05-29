@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <title>My Portfolio</title>
+  </head>
+  <body>
+    <nav id="navbar">
+      <a href="#welcome-section">
+        <img src="images/logo.png" id="logo">
+      </a>
+      <button class="icon" onclick="navToggle()">
+        <i class="fa fa-bars"></i>
+      </button>
+      <ul id="desktop-menu">
+        <li>
+          <a href="#welcome-section">Home</a>
+        </li>
+        <li>
+          <a href="#about-me">My story</a>
+        </li>
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+        <li>
+          <a href="#certification">Certification</a>
+        </li>
+        <li>
+          <a href="#contacts">Get in touch</a>
+        </li>
+      </ul>
+    </nav>
+    <ul id="mobile-menu">
+        <li>
+          <a class="mobile-menu-link" href="#welcome-section">Home</a>
+        </li>
+        <li>
+          <a class="mobile-menu-link" href="#about-me">My story</a>
+        </li>
+        <li>
+          <a class="mobile-menu-link" href="#projects">Projects</a>
+        </li>
+        <li>
+          <a class="mobile-menu-link" href="#certification">Certification</a>
+        </li>
+        <li>
+          <a class="mobile-menu-link" href="#contacts">Get in touch</a>
+        </li>
+      </ul>
+    <section id="welcome-section">
+      <div id="hello">
+        <h2>Hello,</h4>
+        <h2>I'm</h4>
+        <h1>Rocky Raccoon!</h2>
+      </div>
+      <div id="avatar-container">
+        <img id="avatar" src="images/avatar.png"/>
+      </div>
+    </section>
+    <section id="about-me">
+      <h2 class="section-name">My Story</h2>
+      <div id="my-story-container">
+        <p class="description">
+          <span id="raccoon">🦝</span>My name comes from the Beatles song of the same name. I am passionate about building clean and accessible web experiences.<br><br>
+          I completed this Responsive Web Design Certification from freeCodeCamp to strengthen my front-end skills.<br><br>
+          Feel free to explore the projects below. Thanks for stopping by!
+        </p>
+      </div>
+    </section>
+    <section id="projects">
+      <h2 class="section-name">Projects</h2>
+      <a class="project-tile">
+        <img src="images/project 1.png" alt="Project 1: The Beatles Survey">
+      </a>
+      <a class="project-tile">
+        <img src="images/project 2.png" alt="Project 2: Aiko's Tribute Page">
+      </a>
+      <a class="project-tile">
+        <img src="images/project 3.png" alt="Project 3: Basic HTML Technical Documentation">
+      </a>
+      <a class="project-tile">
+        <img src="images/project 4.png" alt="Project 4: Fender Landing Page">
+      </a>
+    </section>
+    <section id="certification">
+      <h2 class="section-name">Certification</h2>
+      <p class="description">To view and try the projects listed above, scan the QR code on this certificate, open the dropdown menu for each one, and click 'View'.</p>
+      <a class="certification-tile">
+        <img src="images/certificate.png" alt="Experience 1">
+      </a>
+    </section>
+    <footer id="contacts">
+      <!-- I added id="profile-link" here to meet the FreeCodeCamp project requirement. However, for best practices, I used a class instead. -->
+      <a id="profile-link" class="profile-link" href="https://github.com/AngeloMari" target="_blank" aria-label="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+      <a class="profile-link" href="https://www.linkedin.com/in/engr-angelo-mari-santos/" target="_blank" aria-label="LinkedIn">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a class="profile-link" href="mailto:santosangelomari@gmail.com" aria-label="Email" target="_blank">
+        <i class="fas fa-envelope"></i>
+      </a>
+      <a class="profile-link" href="tel:+639762407495" aria-label="Phone" target="_blank">
+        <i class="fas fa-phone"></i>
+      </a>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
