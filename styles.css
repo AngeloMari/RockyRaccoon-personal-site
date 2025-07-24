@@ -17,7 +17,7 @@
 }
 
 html {
-  scroll-padding-top: 12vh;
+  scroll-padding-top: 9vh;
   scroll-behavior: smooth;
 }
 
@@ -36,7 +36,7 @@ body {
   left: 50%;
   transform: translateX(-50%);
   width: 100%;
-  height: 12vh;
+  height: 9vh;
   padding: 15px;
   background-color: var(--honey);
   box-shadow: 0 0 3px var(--ash-gray);
@@ -46,7 +46,7 @@ body {
 }
 #logo {
   width: 100%;
-  max-width: 45px;
+  max-width: 30px;
   aspect-ratio: 1/1;
   object-fit: cover;
 }
@@ -64,7 +64,7 @@ body {
 #mobile-menu {
   z-index: 999;
   position: fixed;
-  top: 12vh;
+  top: 9vh;
   left: 0;
   right: 0;
   overflow: hidden;
@@ -200,7 +200,7 @@ body {
 
 /* Footer */
 #contacts {
-  padding: 1.25rem;
+  padding: 0.8rem;
   text-align: center;
   background-color: var(--rich-brown);
 }
@@ -213,7 +213,7 @@ body {
 }
 .profile-link i {
   padding: 0 5px;
-  font-size: 1.2rem;
+  font-size: 0.9rem;
   color: var(--off-white);
 }
 
@@ -237,7 +237,7 @@ body {
   }
   .profile-link i {
     padding: 0 8px;
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
 }
 @media (min-width: 768px) {
@@ -258,7 +258,7 @@ body {
   }
   #desktop-menu li a {
     font-family: "Poppins", sans-serif;
-    font-size: 0.95rem;
+    font-size: 0.8rem;
     color: var(--off-white);
   }
   #mobile-menu,
@@ -283,7 +283,7 @@ body {
   }
   .profile-link i {
     padding: 0 10px;
-    font-size: 1.4rem;
+    font-size: 1.1rem;
   }
 }
 @media (min-width: 1024px) {
@@ -291,7 +291,7 @@ body {
     gap: 2.5rem;
   }
   #desktop-menu li a {
-    font-size: 1.05rem;
+    font-size: 0.95rem;
   }
   #hello h2 {
     font-size: 1.7rem;
@@ -314,6 +314,6 @@ body {
   }
   .profile-link i {
     padding: 0 12px;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 }
